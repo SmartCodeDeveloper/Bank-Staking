@@ -5,8 +5,8 @@ import {ethers} from 'ethers';
 
 import BankStaking from './artifacts/contracts/BankStaking.sol/BankStaking.json';
 import KapoRewardToken from './artifacts/contracts/KapoRewardToken.sol/KapoRewardToken.json';
-const bankAddress = "0xcf6c2b96E6Fc4FFE16Dc14eafdB259da8dC5a43C";
-const tokenAddress = "0x92685bD2bDCBEcDa8a397172274dCBC82A567dF8";
+const bankAddress = "";
+const tokenAddress = "";
 
 function App() {
   const [poolAmount, setPoolAmount] = useState();
