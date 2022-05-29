@@ -9,7 +9,7 @@ async function main() {
   
   const Bank = await hre.ethers.getContractFactory("BankStaking");
 
-  const bank = await Bank.deploy("0x92685bD2bDCBEcDa8a397172274dCBC82A567dF8",180);
+  const bank = await Bank.deploy("",180);//3 minutes
 
   await bank.deployed();
 
