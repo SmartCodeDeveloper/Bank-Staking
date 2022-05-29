@@ -24,8 +24,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   networks: {
     hardhat: {},
     ropsten: {
-      url: "https://ropsten.infura.io/v3/d5b31ecc4b654f8b84cf1f975cd1042d",
-      accounts: [`0x62b3cea51128e6f292ee7043e529cc03b1751855f4cc5bef0a29862c809f125e`]
+      url: "https://ropsten.infura.io/v3/",
+      accounts: [``]
     }
   },
   solidity: "0.8.4",
