@@ -23,7 +23,6 @@ npm install
 - scripts/deploy.js
 const bank = await Bank.deplo("token address",CoolDown Time(Seconds));
 
-- cmd
 npx hardhat run scripts/deploy.js --network ropsten
 
 - console
@@ -34,6 +33,8 @@ Add the contract address in App.js
 const bankAddress = "Deployed contract Address";
 const tokenAddress = "Token address";
 
+
+npm start
 ------ 4 -------
 In the frontend
 - Admin panel
